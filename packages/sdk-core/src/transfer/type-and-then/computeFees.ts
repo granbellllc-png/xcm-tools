@@ -37,6 +37,7 @@ export const computeAllFees = async <TApi, TRes, TSigner, TCustomChain extends s
     origin,
     dest,
     feeAssetInfo,
+    edDeposit,
     options: { sender, recipient, currency, feeCurrency, version, overriddenAsset }
   } = context
 
